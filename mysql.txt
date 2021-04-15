@@ -1,0 +1,2 @@
+create table members(Name varchar(30) not null, Address varchar(30), Number varchar(12) not null unique,Sex varchar(1),Email varchar(50) not null unique,AltNumber varchar(12) not null, UserName varchar(20) primary key,Password varchar(20) not null);
+
